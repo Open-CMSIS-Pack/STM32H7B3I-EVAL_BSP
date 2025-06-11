@@ -13,6 +13,13 @@
   </licenseSets>
 
   <releases>
+    <release version="1.0.2-dev">
+      Active development ...
+      Blinky project:
+      - add .cmsis/Blinky+STM32H7B3I-EVAL.dbgconf and .cmsis/Blinky+STM32H7B3I-EVAL.dbgconf@base@1.1.0 files
+      - modified the CI workflow .github/Test-Examples.yml
+      - updated settings in vcpkg-configuration.json file
+    </release>
     <release version="1.0.1-dev">
       Active development ...
       Blinky project:
