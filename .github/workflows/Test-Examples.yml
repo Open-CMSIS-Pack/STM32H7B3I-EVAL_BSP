@@ -67,7 +67,7 @@ jobs:
       - name: Diagnosis output
         working-directory: ./
         run: |
-          tree ./CI/ -L 4
+          tree ./CI/ -a -L 5
 
       - name: Build Blinky AC6
         if: always()
