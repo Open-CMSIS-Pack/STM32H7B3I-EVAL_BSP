@@ -64,11 +64,6 @@ jobs:
           mkdir -p ./CI/Examples/Blinky
           cp -a ./BSP/Examples/Blinky/. ./CI/Examples/Blinky/
 
-      - name: Diagnosis output
-        working-directory: ./
-        run: |
-          tree ./CI/ -a -L 5
-
       - name: Build Blinky AC6
         if: always()
         working-directory: ./CI/Examples/Blinky
