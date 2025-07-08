@@ -21,7 +21,8 @@
       - modify app_main_thread (replace loop forever)
       - add DWARF-5 debug information
       - add RTE_Components.h files
-      - add .cmsis/Blinky+STM32H7B3I-EVAL.dbgconf and .cmsis/Blinky+STM32H7B3I-EVAL.dbgconf@base@1.1.0 files
+      - updated vcpkg-configuration.json to use cmsis-toolbox 2.9.0
+      - added dbgconf files for the Blinky example      
     </release>
   </releases>
 
